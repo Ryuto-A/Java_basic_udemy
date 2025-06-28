@@ -41,9 +41,9 @@ public class ArrayTest {
     // 実際の現場では、以下のように new String[] を省略して、宣言と初期化を同時に記述するのが普通.
     String[] customer2 = {"鈴木太郎", "suzuki_taro@xxxx.com", "090-0000-9999"};
     // ↑ { }の中で配列の個数が決まっているため、[3]のような宣言が要らなくなる.
-    System.out.println(customer[0]);
-    System.out.println(customer[1]);
-    System.out.println(customer[2]);
+    System.out.println(customer2[0]);
+    System.out.println(customer2[1]);
+    System.out.println(customer2[2]);
     // これでも同じように表示される.
 
     // 配列の個数が少ない場合はこのように書くのが現場では一般的.
