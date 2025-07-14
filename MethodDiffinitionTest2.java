@@ -21,7 +21,7 @@ public class MethodDiffinitionTest2 {
     System.out.println("number1の値: " + number1);
     System.out.println("number2の値: " + number2);
 
-    int sum = 0;
+    int sum = 0;    // int sumを戻り値として用いていない（mainもaddもvoid指定している）ため黄色く表示されている.
     sum = number1 + number2;
     System.out.println("addメソッド終了");
   }
